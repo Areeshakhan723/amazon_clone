@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This is my first code</title>
+  <style>
+    body {
+      background-color: cadetblue;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: bold;
+      font: size 100px;
+      text-decoration: underline;
+    }
+
+    .demo {
+      font-size: 25px;
+      line-height: 90px;
+      text-align: left;
+
+    }
+
+    .lab {
+      border-radius: 3px;
+      width: 15%;
+      height: 25px;
+    }
+
+    #one {
+      border-radius: 3px;
+      width: 15%;
+      height: 25px;
+
+    }
+
+    #id1,
+    id2 {
+      height: 30%;
+    }
+
+    #btnOne {
+      display: block;
+      margin: auto;
+      width: 5%;
+      height: 30px;
+      font-size: 20px;
+      background-color: aquamarine;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Registration Form</h1>
+
+  <form action="index.HTML" class="demo">
+    <p>First Name:
+      <input type="text" name="name" class="lab" required>
+      Last Name:
+      <input type="text" name="name" class="lab" required>
+    </p>
+    <p>Date Of Birth:
+      <input type="date" name="birth_date" id="birth_date" class="lab" required>
+    </p>
+    <P>Email Address:
+      <input type="text" name="email" id="email" class="lab" required>
+    </P>
+    <P>Number:
+      <input type="number" name="number" id="number" class="lab" required>
+    </p>
+    <p>School Names:
+      <select name="school_name" id="school_name" class="lab">
+        <option value="">--select schools--</option>
+        <option value="GOVT model"> GOVT Model School </option>
+        <option value="ST Mary School"> ST Mary Girls School</option>
+        <option value="sun city School">Sun City School</option>
+        <option value="laddies club school">laddies Club School</option>
+      </select>
+    </p>
+    <P>Class:
+      11 <input type="checkbox" name="class" id="id1"> 12 <input type="checkbox" name="class" id="id1">
+
+    <p>Grade Year
+      <input type="text" name="Grade Year" class="lab" required>
+    </p>
+    <button id="btnOne">Submit</button>
+  </form>
+</body>
+
+</html>
